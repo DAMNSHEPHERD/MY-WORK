@@ -1,0 +1,357 @@
+#include<stdio.h>
+#include<string.h>
+#include<windows.h>
+#include<stdlib.h>
+
+
+int main(int argc, char const *argv[])
+{
+
+    int a,b;
+    char choice[10];
+    char shape[100];
+    float r;
+    float r2;
+    float side;
+    char c[20];
+    char s[100];
+    char question[100];
+    char answer2[100];
+    char YN[10];
+    char choice3;
+
+
+    printf("hello there i suppose u are here to find area of rectangle...well then lets get started\n"); 
+
+    Sleep(2000);
+
+    printf("what is the length of rectangle:\n");
+
+    scanf("%d" , &a);
+
+    Sleep(2000);
+
+    printf("waht is the breadth of rectangle: \n");
+
+    scanf("%d" , &b);
+
+    printf("area of the required rectangle is:%d\n" , a*b);
+
+    Sleep(3000);
+
+    do {
+  
+    printf("do u need assistance with something else?? (yes or no)\n");
+
+    scanf("%s" , choice); 
+
+    if  ( strcmp(choice , "yes") == 0 ||
+          strcmp(choice , "YES") == 0 ||
+          strcmp(choice , "Yes") == 0 ) 
+    
+{ printf("which shape u need help with??\n"); 
+
+        Sleep(2000);
+
+      printf(" Circle / Rectangle / Square / Triangle \n");
+
+      scanf("%s" , shape);
+
+      if (strcmp (shape , "circle") == 0 ||
+          strcmp (shape , "Circle") == 0 ||
+          strcmp (shape , "CIRCLE") == 0 )
+          { printf (" what do u need to find in circle??\n");
+            printf (" You need help with 'area' or 'circumference'?]\n");  
+
+            scanf("%s" , c);
+
+            if (strcmp ( c , "Circumference") == 0 ||
+                strcmp ( c , "circumference") == 0 ||
+                strcmp ( c , "CIRCUMFERENCE") == 0 )
+
+                 {  Sleep(2000);
+
+                  printf("oh you need circumference of circle??.. tell me the radius of this cricle:\n"); 
+          
+                     scanf("%f" , &r);
+
+                     Sleep(2000);
+
+                    printf("circumference of the circle is:%f\n" , 2*3.1415*r);
+
+                     printf("if u want i can tell u the area of the circle as well..do u want help with this?? (Y/N)\n");
+
+                     scanf(" %c", &choice3);
+
+                     if (choice3 == 'y' ||
+                        choice3 == 'Y')
+
+                    { printf(" well.. the area of the above circle is:%f\n" , 3.1415*r*r );  }
+
+                    else if ( choice3 == 'n' ||
+                              choice3 == 'N')
+
+                              { Sleep (4000);
+
+                          printf (" ok then.. ig..ummm..bie \n") ;
+
+                         Sleep (5000);
+
+                         printf ("Bruhh why u still here??\n"); 
+
+                         Sleep (6000);
+
+                         printf (" now u making me mad fr man.. LEAVEEEE\n");
+
+                         Sleep (3000); 
+
+                         system ("color 0c");
+
+                         printf ("LEAVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\n");
+
+                        Sleep(2000); 
+
+                        printf("LEAVEEEEEEE LEAVEEEEEEE LEAVEEEEEEEEE FUCKERRRRRRRRRRRRRRRRRRRRRR\n");
+
+                        Sleep(1000); 
+
+                        printf(" I WILL RUIN YOUR LIFEEEE... U LISTEN TO ME..\n");
+
+                        Sleep(1000); 
+
+                        printf(" I WILL EAT YOUR SOUL AND FEED IT TO MY DOGS\n");
+
+                        Sleep(1000); 
+
+                        printf( " LEAVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE OR I KILL YOU.. \n");
+
+                        Sleep(1000); 
+
+                        printf( " SINCERELY LEAVEEEEEEE... please before i lose my temper again// \n");
+
+                        Sleep(7000); 
+
+                        system("color 0A");
+
+                        printf( "still here// well u gave me no choice\n"); 
+
+                        Sleep(4000); 
+
+                        system("color 0C");
+
+                        printf( "self destruct in T minus 5 seconds.\n");
+
+                        Sleep(2000); 
+
+                        printf("5\n");
+
+                        Sleep(2000); 
+
+                        printf("4\n");
+
+                        Sleep(2000); 
+
+                        printf("3\n");
+
+                        Sleep(2000); 
+
+                        printf("2\n");
+
+                        Sleep(2000); 
+
+                        printf("1\n");
+
+                        Sleep(2000); 
+
+                        system("color 0C"); 
+
+                        printf("BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMMMM...KHRKRKRKRKRKRKKRKRKRKRKR............SUUUUUUUUUUUUUUUUUUUUUUUUUUUKEKRKKRKRKRKRRK\n");
+
+                        Sleep(6000);
+                    
+                        printf("just write 'end' bro... like end it all.. i will not work for u anymore\n");
+                    }
+                     } 
+ 
+            
+            else if (strcmp ( c , "area") == 0 ||
+                     strcmp ( c , "AREA") == 0 ||
+                     strcmp ( c , "Area") == 0 )     
+                     
+               { printf (" OH you wanna area of the circle.. can u tell me radius of this circle: \n"); 
+               
+               scanf ("%f" , &r2);
+
+               Sleep(3000);
+
+               printf(" The area of the circle is:%f \n " , 3.1415*r2*r2) ; } } 
+
+        
+        else if (strcmp (shape , "Square") == 0 ||
+          strcmp (shape , "square") == 0 ||
+          strcmp (shape , "SQUARE") == 0 )
+
+          { printf (" what do u need to find in square??\n");
+
+            Sleep(2000); 
+
+            printf (" You need help with 'area' or 'perimeter'?]\n");  
+
+            scanf("%s" , s);
+
+            if (strcmp ( s , "Perimeter") == 0 ||
+               strcmp ( s, "perimeter") == 0 ||
+                strcmp ( s , "PERIMETER") == 0 )
+
+               { printf(" OH perimeter.. interesting.. tell me the side of square..i will get the perimeter for u.\n"); 
+                    
+                 scanf(" %f" , &side); 
+
+                 Sleep(2000);
+
+                 printf(" well it was pretty easy.. your ans is %f... formula i used was 4a 'where a is side of square'\n" , 4*side);
+                 
+                 Sleep(3000);
+
+                 printf(" need help with area tooo?? .... just say 'yes or no'\n");
+
+                 scanf("%s" , YN);
+
+                 if (strcmp ( YN , "YES") == 0 ||
+                     strcmp ( YN, "yes" ) == 0 ||
+                     strcmp ( YN , "Yes") == 0)
+
+
+                 { printf (" Perfect. heres the area of the above square:%f \n" , side*side); 
+                    
+                 }
+                 
+                 else if (strcmp ( YN , "NO") == 0  ||
+                          strcmp (YN , "no") == 0  || 
+                         strcmp ( YN , "No") == 0)
+                         
+                         { Sleep (4000);
+
+                          printf (" ok then.. ig.. \n") ;}
+
+                         Sleep (5000);
+
+                         printf ("Bruhh why u still here??\n"); 
+
+                         Sleep (6000);
+
+                         printf (" now u making me mad fr man.. LEAVEEEE\n");
+
+                         Sleep (3000); 
+
+                         system ("color 0c");
+
+                         printf ("LEAVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\n");
+
+                        Sleep(2000); 
+
+                        printf("LEAVEEEEEEE LEAVEEEEEEE LEAVEEEEEEEEE FUCKERRRRRRRRRRRRRRRRRRRRRR\n");
+
+                        Sleep(1000); 
+
+                        printf(" I WILL RUIN YOUR LIFEEEE... U LISTEN TO ME..\n");
+
+                        Sleep(1000); 
+
+                        printf(" I WILL EAT YOUR SOUL AND FEED IT TO MY DOGS\n");
+
+                        Sleep(1000); 
+
+                        printf( " LEAVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE OR I KILL YOU.. \n");
+
+                        Sleep(1000); 
+
+                        printf( " SINCERELY LEAVEEEEEEE... please before i lose my temper again// \n");
+
+                        Sleep(7000); 
+
+                        system("color 0A");
+
+                        printf( "still here// well u gave me no choice\n"); 
+
+                        Sleep(4000); 
+
+                        system("color 0C");
+
+                        printf( "self destruct in T minus 5 seconds.\n");
+
+                        Sleep(2000); 
+
+                        printf("5\n");
+
+                        Sleep(2000); 
+
+                        printf("4\n");
+
+                        Sleep(2000); 
+
+                        printf("3\n");
+
+                        Sleep(2000); 
+
+                        printf("2\n");
+
+                        Sleep(2000); 
+
+                        printf("1\n");
+
+                        Sleep(2000); 
+
+                        system("color 0C"); 
+
+                        printf("BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMMMM...KHRKRKRKRKRKRKKRKRKRKRKR............SUUUUUUUUUUUUUUUUUUUUUUUUUUUKEKRKKRKRKRKRRK\n");
+
+                        }
+
+            else if (strcmp ( s , "area") == 0 ||
+                     strcmp ( s , "Area") == 0 ||
+                     strcmp ( s , "AREA") == 0)  
+                     
+                { printf (" area of square... hmm its just basic calculation..tell me the side of square i will tell u the area..\n"); 
+
+                     scanf (" %f" , &side); 
+
+                     Sleep(2000);
+
+                     printf ("Area of square:%f , i used a basic formula side x side thats it..\n" , side*side ); } 
+
+                } }
+
+                        
+
+
+    else if (strcmp(choice,"NO") == 0 ||
+             strcmp (choice , "no") == 0 || 
+             strcmp(choice , "No") == 0 )
+
+    { Sleep(3000);
+        
+        printf(" well then alr i will take my leave.. but think again u really dont need some help??\n"); }
+ 
+    else { printf("invalid input..just ans dude..go back and do that again..\n"); }
+
+
+    
+
+    } while (strcmp ( choice , "Yes" ) !=0 &&
+              strcmp(choice , "yes"  ) !=0 && 
+              strcmp(choice , "YES"  ) !=0 &&
+              strcmp(choice , "no"   ) !=0 &&
+              strcmp(choice , "No"   ) !=0 &&
+              strcmp(choice , "NO"   ) !=0 ); 
+
+             
+  printf("hello\n"); 
+
+   return 0;
+    }
+    
+        
+    
+    
+
