@@ -345,8 +345,7 @@ int main(int argc, char const *argv[])
               strcmp(choice , "No"   ) !=0 &&
               strcmp(choice , "NO"   ) !=0 ); 
 
-             
-  printf("hello\n"); 
+            
 
    return 0;
     }
