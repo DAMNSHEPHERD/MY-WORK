@@ -67,6 +67,7 @@ int main(int argc, char const *argv[])
   Sleep(3000);
 
   do
+
   {
 
     printf("do u need assistance with something else?? (yes or no)\n");
@@ -627,7 +628,7 @@ int main(int argc, char const *argv[])
 
                       Sleep (3000); 
 
-                      printf (" 1. Area \n"
+                    do {  printf (" 1. Area \n"
                              " 2. calculating the 3rd angle if.. 2 angles are given [just type 'angle'] \n"); 
 
                              scanf("%19s" , t);
@@ -644,17 +645,17 @@ int main(int argc, char const *argv[])
 
                           printf ("Tell me the base of the traingle.\n");
 
-                          scanf ("%f" , base );
+                          scanf ("%f" , &base );
 
                            Sleep (1700); 
 
                            printf ("Tell me the height of the traingle.\n");
 
-                           scanf("%f" , height );
+                           scanf("%f" , &height );
 
                                Sleep (1700); 
 
-                               printf (" Alr the area of the traingle is : '%f' , 0.5*height*base \n" );
+                               printf (" Alr the area of the traingle is : '%f'\n" , 0.5*height*base  );
 
 
                                   Sleep (1700); 
@@ -665,9 +666,9 @@ int main(int argc, char const *argv[])
                               }
 
 
-                      else if  (( t , "Angle") == 0 ||
-                               ( t , "ANGLE") == 0 ||
-                               ( t , "angle") == 0 ) 
+                      else if  (strcmp( t , "Angle") == 0 ||
+                                strcmp( t , "ANGLE") == 0 ||
+                                strcmp( t , "angle") == 0 ) 
 
                       { Sleep(5000); 
 
@@ -684,7 +685,7 @@ int main(int argc, char const *argv[])
 
                         Sleep(3000); 
 
-                        system("color = 0C");
+                        system("color 0C");
 
                         printf (" yk what u aint leaving until u do, some BASIC ELEMENTARY LVL PROBLEMS \n\n"); 
 
@@ -716,9 +717,9 @@ int main(int argc, char const *argv[])
 
                         printf( " whats 13 + 17 \n"); 
 
-                        scanf("%d" , question); 
+                        scanf("%d" , &question); 
 
-                        if ( question == '30') 
+                        if ( question == 30 ) 
 
                         { printf ("very good.. well done..oh my god ,u are a real champ..other Question coming right up\n\n");
 
@@ -727,9 +728,9 @@ int main(int argc, char const *argv[])
                           printf(" whats 235 + 567 \n\n" 
                                  " Take your time on this one..no worries..just get it right\n\n");
 
-                                 scanf ("%d" , answer2 );
+                                 scanf ("%d" , &answer2 );
                                  
-                                 if ( answer2 == '802' ) 
+                                 if ( answer2 == 802 ) 
 
                               { Sleep (3000); 
                               
@@ -871,9 +872,9 @@ int main(int argc, char const *argv[])
             
                     printf("invalid..\n\n"); 
 
-                    triangleAttempts++ ,
+                    triangleAttempts++ ;
 
-                    if (triangleAttempts == 2)
+                    if ( triangleAttempts == 2 )
 
                     { Sleep (4000); 
                     
@@ -907,8 +908,16 @@ int main(int argc, char const *argv[])
 
 
 
-             }
-
+             } 
+            
+            }
+          
+          }  while ( strcmp( t , "Area") != 0 && 
+                     strcmp( t , "AREA") != 0 &&
+                     strcmp( t , "area") != 0 && 
+                     strcmp( t , "Angle") != 0 &&
+                     strcmp( t , "ANGLE") != 0 &&
+                     strcmp( t , "angle") != 0 ) ;   
 
                     
          }
@@ -917,14 +926,11 @@ int main(int argc, char const *argv[])
     }
 
 
-  }
-
-
 
 
     else if (strcmp(choice, "NO") == 0 ||
              strcmp(choice, "no") == 0 ||
-             strcmp(choice, "No") == 0)
+             strcmp(choice, "No") == 0)  
 
     {
       Sleep(3000);
@@ -1001,12 +1007,14 @@ int main(int argc, char const *argv[])
 
              printf("This was your last chance , u insufferable fuck\n\n");
 
-             break;
-    }
+             break; }
+    
+
+  
 
   }
 
-  } while (strcmp(choice, "Yes") != 0 &&
+} while (strcmp(choice, "Yes") != 0 &&
            strcmp(choice, "yes") != 0 &&
            strcmp(choice, "YES") != 0 &&
            strcmp(choice, "no") != 0 &&
