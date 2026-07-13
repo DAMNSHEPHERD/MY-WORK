@@ -61,7 +61,10 @@ int main(int argc, char const *argv[])
           strcmp (shape , "Circle") == 0 ||
           strcmp (shape , "CIRCLE") == 0 )
           { printf (" what do u need to find in circle??\n");
-            printf (" You need help with 'area' or 'circumference'?]\n");  
+
+            Sleep(2000);
+
+          do {  printf (" You need help with 'area' or 'circumference'?]\n");  
 
             scanf("%s" , c);
 
@@ -184,7 +187,20 @@ int main(int argc, char const *argv[])
 
                Sleep(3000);
 
-               printf(" The area of the circle is:%f \n " , 3.1415*r2*r2) ; } } 
+               printf(" The area of the circle is:%f \n " , 3.1415*r2*r2) ; } 
+            
+            else 
+            { 
+               Sleep(3000);
+                
+                printf(" invalid input..just ans dude..u always make me angry dk why..just ans properly..\n"); 
+            
+            } } while (strcmp ( c , "area") != 0 &&
+                     strcmp ( c , "AREA") != 0 &&
+                     strcmp ( c , "Area") != 0 &&
+                     strcmp ( c , "Circumference") != 0 &&
+                     strcmp ( c , "circumference") != 0 &&
+                     strcmp ( c , "CIRCUMFERENCE") != 0 ); }
 
         
         else if (strcmp (shape , "Square") == 0 ||
@@ -213,7 +229,7 @@ int main(int argc, char const *argv[])
                  
                  Sleep(3000);
 
-                 printf(" need help with area tooo?? .... just say 'yes or no'\n");
+               do {  printf(" need help with area tooo?? .... just say 'yes or no'\n");
 
                  scanf("%s" , YN);
 
@@ -222,7 +238,10 @@ int main(int argc, char const *argv[])
                      strcmp ( YN , "Yes") == 0)
 
 
-                 { printf (" Perfect. heres the area of the above square:%f \n" , side*side); 
+                 {
+                    Sleep(2000);
+
+                    printf (" Perfect. heres the area of the above square:%f \n" , side*side); 
                     
                  }
                  
@@ -232,7 +251,7 @@ int main(int argc, char const *argv[])
                          
                          { Sleep (4000);
 
-                          printf (" ok then.. ig.. \n") ;}
+                          printf (" ok then.. ig.. \n") ;
 
                          Sleep (5000);
 
@@ -304,9 +323,24 @@ int main(int argc, char const *argv[])
 
                         system("color 0C"); 
 
-                        printf("BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMMMM...KHRKRKRKRKRKRKKRKRKRKRKR............SUUUUUUUUUUUUUUUUUUUUUUUUUUUKEKRKKRKRKRKRRK\n");
+                        printf("BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMMMM...KHRKRKRKRKRKRKKRKRKRKRKR............SUUUUUUUUUUUUUUUUUUUUUUUUUUUKEKRKKRKRKRKRRK\n"); }
 
-                        }
+                        
+                    else 
+
+                    { Sleep(3000);
+                        
+                        printf(" invalid input..just ans dude..u always make me angry dk why..just ans properly..\n"); }
+
+                     } while (strcmp ( YN , "yes") != 0 && 
+                       strcmp ( YN , "YES") != 0 && 
+                       strcmp ( YN , "Yes") != 0 &&
+                       strcmp ( YN , "no") != 0 &&
+                       strcmp ( YN , "NO") != 0 &&
+                       strcmp ( YN , "No") != 0 );
+ 
+
+                 }
 
             else if (strcmp ( s , "area") == 0 ||
                      strcmp ( s , "Area") == 0 ||
@@ -320,7 +354,14 @@ int main(int argc, char const *argv[])
 
                      printf ("Area of square:%f , i used a basic formula side x side thats it..\n" , side*side ); } 
 
-                } }
+                
+            else { printf(" invalid input. \n"); 
+
+                Sleep(3000);
+
+                printf(" TYPE properly dude.. like comeon man..ik u can do better than this..\n");
+            
+            } } }
 
                         
 
@@ -333,7 +374,7 @@ int main(int argc, char const *argv[])
         
         printf(" well then alr i will take my leave.. but think again u really dont need some help??\n"); }
  
-    else { printf("invalid input..just ans dude..go back and do that again..\n"); }
+    else { printf("invalid input..just ans dude...\n"); }
 
 
     
