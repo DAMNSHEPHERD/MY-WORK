@@ -82,14 +82,18 @@ int main(int argc, char const *argv[])
 
                     printf("circumference of the circle is:%f\n" , 2*3.1415*r);
 
-                     printf("if u want i can tell u the area of the circle as well..do u want help with this?? (Y/N)\n");
+                  do {   printf("if u want i can tell u the area of the circle as well..do u want help with this?? (Y/N) '[TYPE IN SINGLE LETTER ONLY!!!!]'\n");
 
                      scanf(" %c", &choice3);
 
                      if (choice3 == 'y' ||
                         choice3 == 'Y')
 
-                    { printf(" well.. the area of the above circle is:%f\n" , 3.1415*r*r );  }
+                    { Sleep(2000);
+                      
+                      system("color 09");
+
+                      printf(" well.. the area of the above circle is:%f\n" , 3.1415*r*r );  }
 
                     else if ( choice3 == 'n' ||
                               choice3 == 'N')
@@ -172,9 +176,63 @@ int main(int argc, char const *argv[])
 
                         Sleep(6000);
                     
-                        printf("just write 'end' bro... like end it all.. i will not work for u anymore\n");
+                        printf("just write 'end' bro... like end it all.. i will not work for u anymore\n"); 
+
+        
+                    
+                      
+                      }
+
+                      else { Sleep (6000); 
+
+                        system ("color 0C");
+                      
+                      printf (" your typing with your feet or what???\n") ;
+
+                      Sleep (5000);
+            
+
+                      printf
+                      
+                      ("i can type with my feet as well\n") ; 
+
+                      Sleep (4000); 
+
+                      printf(" Cn U REED TIS...?????\n") ;
+
+                      Sleep(3000); 
+
+                      printf (" HAO BOUT TIS???\n");
+
+                      Sleep (3000); 
+
+                      printf("NOO TELL ME NOW NAHH..COULD U READ THAT.. U PUNK.. WHAT HAPPENED NOW.. U EXPECT ME TO READ YOUR STUPID SHIT\n");
+
+                      Sleep (5000); 
+
+                      printf (" I TELL U MAN.. I WILL GET MAD WORKING FOR THESE ILLETERATE FUCKS.. EITHER I WILL KILL MYSELF OR KILL YOU..\n");
+
+                      Sleep (5000);
+
+                      printf("MORON\n");
+
+                      Sleep(4000);
+
+                      printf (" U DESERVE THE WORST MY GUY.. A SINGLE LETTER U CANNOT WRITE.. LIKE THE U STUPID FUCK..\n");
+
+
+
+                    
                     }
-                     } 
+
+                  } while ( choice3 != 'y' &&
+                            choice3 != 'Y' &&
+                            choice3 != 'N' &&
+                            choice3 != 'n' );
+
+
+                    }
+                      
  
             
             else if (strcmp ( c , "area") == 0 ||
@@ -211,7 +269,7 @@ int main(int argc, char const *argv[])
 
             Sleep(2000); 
 
-            printf (" You need help with 'area' or 'perimeter'?]\n");  
+           do { printf (" You need help with 'area' or 'perimeter'?]\n");  
 
             scanf("%s" , s);
 
@@ -338,7 +396,6 @@ int main(int argc, char const *argv[])
                        strcmp ( YN , "no") != 0 &&
                        strcmp ( YN , "NO") != 0 &&
                        strcmp ( YN , "No") != 0 );
- 
 
                  }
 
@@ -361,7 +418,29 @@ int main(int argc, char const *argv[])
 
                 printf(" TYPE properly dude.. like comeon man..ik u can do better than this..\n");
             
-            } } }
+            } 
+            
+            
+          } while (strcmp ( s , "Area") != 0 && 
+                   strcmp ( s , "AREA") != 0 &&
+                   strcmp ( s , "area") != 0 && 
+                   strcmp ( s, "PERIMETER") != 0 &&
+                   strcmp ( s, "Perimeter") != 0 &&
+                   strcmp ( s, "perimeter") != 0 ) ; 
+          
+          
+          
+          
+          
+          
+          } 
+
+
+
+
+
+
+          }
 
                         
 
