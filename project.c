@@ -58,7 +58,7 @@ int main(int argc, char const *argv[])
 
   scanf("%d", &b);
 
-  printf("area of the required rectangle is:%d\n", a * b);
+  printf("area of the required rectangle is:  %d\n", a * b);
 
   Sleep(3000);
 
@@ -109,7 +109,9 @@ int main(int argc, char const *argv[])
 
             Sleep(2000);
 
-            printf("circumference of the circle is:%f\n", 2 * 3.1415 * r);
+            printf("circumference of the circle is:  %f\n", 2 * 3.1415 * r);
+
+            Sleep(3000);
 
             do
             {
@@ -125,7 +127,7 @@ int main(int argc, char const *argv[])
 
                 system("color 09");
 
-                printf(" well.. the area of the above circle is:%f\n", 3.1415 * r * r);
+                printf(" well.. the area of the above circle is:  %f\n", 3.1415 * r * r);
               }
 
               else if (choice3 == 'n' ||
@@ -142,39 +144,39 @@ int main(int argc, char const *argv[])
 
                 Sleep(6000);
 
-                printf(" now u making me mad fr man.. LEAVEEEE\n");
+                printf(" now u making me mad fr man.. LEAVEEEE\n\n");
 
                 Sleep(3000);
 
                 system("color 0c");
 
-                printf("LEAVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\n");
+                printf("LEAVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\n\n");
 
                 Sleep(2000);
 
-                printf("LEAVEEEEEEE LEAVEEEEEEE LEAVEEEEEEEEE FUCKERRRRRRRRRRRRRRRRRRRRRR\n");
+                printf("LEAVEEEEEEE LEAVEEEEEEE LEAVEEEEEEEEE FUCKERRRRRRRRRRRRRRRRRRRRRR\n\n");
 
                 Sleep(1000);
 
-                printf(" I WILL RUIN YOUR LIFEEEE... U LISTEN TO ME..\n");
+                printf(" I WILL RUIN YOUR LIFEEEE... U LISTEN TO ME..\n\n");
 
                 Sleep(1000);
 
-                printf(" I WILL EAT YOUR SOUL AND FEED IT TO MY DOGS\n");
+                printf(" I WILL EAT YOUR SOUL AND FEED IT TO MY DOGS\n\n");
 
                 Sleep(1000);
 
-                printf(" LEAVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE OR I KILL YOU.. \n");
+                printf(" LEAVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE OR I KILL YOU.. \n\n");
 
                 Sleep(1000);
 
-                printf(" SINCERELY LEAVEEEEEEE... please before i lose my temper again// \n");
+                printf(" SINCERELY LEAVEEEEEEE... please before i lose my temper again// \n\n");
 
                 Sleep(7000);
 
                 system("color 0A");
 
-                printf("still here// well u gave me no choice\n");
+                printf("still here// well u gave me no choice\n\n");
 
                 Sleep(4000);
 
@@ -211,6 +213,9 @@ int main(int argc, char const *argv[])
                 Sleep(6000);
 
                 printf("just write 'end' bro... like end it all.. i will not work for u anymore\n");
+
+                break;
+
               }
 
               else
@@ -225,27 +230,30 @@ int main(int argc, char const *argv[])
 
                 printf
 
-                    ("i can type with my feet as well\n");
+                    ("i can type with my feet as well\n\n");
 
                 Sleep(4000);
 
-                printf(" Cn U REED TIS...?????\n");
+                printf(" Cn U REED TIS...?????\n\n");
 
                 Sleep(3000);
 
-                printf(" HAO BOUT TIS???\n");
+                printf(" HAO BOUT TIS???\n\n");
 
                 Sleep(3000);
 
-                printf("NOO TELL ME NOW NAHH..COULD U READ THAT.. U PUNK.. WHAT HAPPENED NOW.. U EXPECT ME TO READ YOUR STUPID SHIT\n");
+                printf("NOO TELL ME NOW NAHH..COULD U READ THAT..\n" 
+                  "U PUNK..\n"
+                  " WHAT HAPPENED NOW.. U EXPECT ME TO READ YOUR STUPID SHIT\n\n");
 
                 Sleep(5000);
 
-                printf(" I TELL U MAN.. I WILL GET MAD WORKING FOR THESE ILLETERATE FUCKS.. EITHER I WILL KILL MYSELF OR KILL YOU..\n");
+                printf(" I TELL U MAN.. I WILL GET MAD WORKING FOR THESE ILLETERATE FUCKS.. \n"
+                  " EITHER I WILL KILL MYSELF OR KILL YOU..\n\n");
 
                 Sleep(5000);
 
-                printf("MORON\n");
+                printf("MORON\n\n");
 
                 Sleep(4000);
 
@@ -347,33 +355,33 @@ int main(int argc, char const *argv[])
 
                 Sleep(6000);
 
-                printf(" now u making me mad fr man.. LEAVEEEE\n");
+                printf(" now u making me mad fr man.. LEAVEEEE\n\n");
 
                 Sleep(3000);
 
-                system("color 0c");
+                system("color 0C");
 
-                printf("LEAVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\n");
+                printf("LEAVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\n\n");
 
                 Sleep(2000);
 
-                printf("LEAVEEEEEEE LEAVEEEEEEE LEAVEEEEEEEEE FUCKERRRRRRRRRRRRRRRRRRRRRR\n");
+                printf("LEAVEEEEEEE LEAVEEEEEEE LEAVEEEEEEEEE FUCKERRRRRRRRRRRRRRRRRRRRRR\n\n");
 
                 Sleep(1000);
 
-                printf(" I WILL RUIN YOUR LIFEEEE... U LISTEN TO ME..\n");
+                printf(" I WILL RUIN YOUR LIFEEEE... U LISTEN TO ME..\n\n");
 
                 Sleep(1000);
 
-                printf(" I WILL EAT YOUR SOUL AND FEED IT TO MY DOGS\n");
+                printf(" I WILL EAT YOUR SOUL AND FEED IT TO MY DOGS\n\n");
 
                 Sleep(1000);
 
-                printf(" LEAVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE OR I KILL YOU.. \n");
+                printf(" LEAVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE OR I KILL YOU.. \n\n");
 
                 Sleep(1000);
 
-                printf(" SINCERELY LEAVEEEEEEE... please before i lose my temper again// \n");
+                printf(" SINCERELY LEAVEEEEEEE... please before i lose my temper again// \n\n");
 
                 Sleep(7000);
 
@@ -412,6 +420,9 @@ int main(int argc, char const *argv[])
                 system("color 0C");
 
                 printf("BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMMMM...KHRKRKRKRKRKRKKRKRKRKRKR............SUUUUUUUUUUUUUUUUUUUUUUUUUUUKEKRKKRKRKRKRRK\n");
+
+                break; 
+
               }
 
               else
@@ -445,8 +456,9 @@ int main(int argc, char const *argv[])
           }
 
           else
-          {
-            printf(" invalid input. \n");
+          { Sleep(2000); 
+
+            printf(" invalid input. \n\n");
 
             squareAttempts++ ;
 
@@ -454,19 +466,19 @@ int main(int argc, char const *argv[])
 
            { Sleep(3000);
 
-            printf(" TYPE properly dude.. like comeon man..ik u can do better than this..\n"); }
+            printf(" TYPE properly dude.. like comeon man..ik u can do better than this..\n\n"); }
 
            else if (squareAttempts == 3) 
 
            { Sleep (4000); 
 
-            printf ("BROOO...like.. ik u can do it.. just keep trying\n"); }
+            printf ("BROOO...like.. ik u can do it.. just keep trying\n\n"); }
 
             else if (squareAttempts == 4)
 
             { Sleep(6000); 
             
-            printf("no words for you man.. try spelling it out.. just try...\n");}
+            printf("no words for you man.. try spelling it out.. just try...\n\n");}
 
             else if (squareAttempts == 5)
 
@@ -475,17 +487,25 @@ int main(int argc, char const *argv[])
 
               system("color 0C");
 
-              printf("YOUUUU...\n");
+              printf("YOUUUU...\n\n");
               
               
               Sleep(7000);
 
-              printf(" YOU KNOW PPL LIKE YOU.. PROMOTES ME TO START SMOKING.. EVERYTHING GOES SIMPLE.. AND THEN..YOUUUUUUUUUUUUUUUUUUUUUUUUUUUUU ARE TRYNA MAKE MY LIFE HARDERRR.....\n");
+              printf(" YOU KNOW PPL LIKE YOU.. PROMOTES ME TO START SMOKING.. \n\n");
+
+              Sleep(2000);
+
+                printf(" EVERYTHING GOES SIMPLE..\n");
+
+                Sleep(2000);
+
+                printf (" AND THEN..YOUUUUUUUUUUUUUUUUUUUUUUUUUUUUU ARE TRYNA MAKE MY LIFE HARDERRR.....\n\n");
 
 
-              Sleep(6000); 
+              Sleep(10000); 
 
-              printf(" ARGHHHHHHHHHH..OK LAST CHANCE.. U HEAR ME U WORHTLESS SHIT... LAST CHANCE.. THEN I AM OUT// \n");
+              printf(" ARGHHHHHHHHHH..OK LAST CHANCE.. U HEAR ME U WORHTLESS SHIT... LAST CHANCE.. THEN I AM OUT// \n\n");
 
             }
 
@@ -494,36 +514,44 @@ int main(int argc, char const *argv[])
             { Sleep(6000); 
             
                printf ("ERROR 404:\n");
+
+               Sleep (1500);
+
+
                 printf ("user's reading skills not found.\n");
 
                 Sleep(5000);
 
                   printf ("I've shown the options.\n");
 
+                  Sleep (1500);
+
                    printf ( "I have repeated the options.\n");
 
-                    printf ("I've practically begged you to type one of the options.\n"); 
+                   Sleep (1500);
+
+                    printf ("I've practically begged you to type one of the options.\n\n\n"); 
 
                     Sleep(4000);
 
-                        printf ("Yet here we are... \n");
+                        printf ("Yet here we are... \n\n");
 
                         Sleep(5000);
 
                        printf ("I've reached a very scientific conclusion.\n");
 
-                        Sleep(3000);
+                        Sleep(4000);
 
 
-                        printf(" problem isn't my code.\n");
+                        printf(" problem isn't my code.\n\n");
 
-                        Sleep(3000);
+                        Sleep(6000);
 
-                        printf ("The problem is sitting between the chair and the keyboard.\n");
+                        printf ("The problem is sitting between the chair and the keyboard.\n\n");
 
                         Sleep(5000);
 
-                        printf ( "   Goodbye. \n"); 
+                        printf ( "Goodbye. \n"); 
 
                         break;
                       
@@ -541,48 +569,57 @@ int main(int argc, char const *argv[])
     
     else if (strcmp ( shape , "Triangle") == 0  ||
              strcmp ( shape , "TRIANGLE") == 0  ||
-             strcmp ( shape , "triangle") == 0 );
+             strcmp ( shape , "triangle") == 0 )
+             {
+              
+              Sleep(4000);
+              
+              printf (" Ohhhh yeahhh,, you getting naughty aernt u.. u wanna learn about that 3 pointy things...\n");
+            
+              Sleep(3000); 
+
+              printf("Well here it is..\n\n\n");
+
+              Sleep(2000);
+            
+              printf( "A triangle is a polygon with:\n"
+                           "- 3 sides\n"
+                           "- 3 vertices (corners)\n"
+                           "- 3 interior angles \n\n\n\n");
+
+
+                           Sleep(6000);
+
+                           
+
+             printf (" Interesting Facts: \n"
+                 "- The sum of all interior angles is 180°. \n"
+                 "- A triangle is the smallest polygon. \n"
+                 "- Every triangle has exactly 3 sides. \n\n\n\n"); 
+
+                 Sleep (7000);
+
+                   printf (" Types of Triangles (By Sides): \n "
+                      "1. Equilateral - All 3 sides are equal. \n"
+                      "2. Isosceles - Any 2 sides are equal. \n"
+                      "3. Scalene - All sides are different. \n\n\n\n ");
+
+                      Sleep(5000);
+
+                      printf ("Types of Triangles (By Angles): \n"
+                       "1. Acute - All angles are less than 90 degree. \n"
+                       "2. Right - One angle is exactly 90 degree. \n"
+                       "3. Obtuse - One angle is greater than 90 degree.\n\n\n\n");
+
+                       Sleep (7000);
+
+                                 printf (" \n Area = (Base * Height) / 2 \n\n\n"
+                                          " \n Perimeter = Side1 + Side2 + Side3 \n\n\n");
+
+            }
              
+
              
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -652,15 +689,15 @@ int main(int argc, char const *argv[])
 
           Sleep(4000);
 
-          printf("inhaless........EXHALESSSSSSSSSSSS\n");
+          printf("inhaless........EXHALESSSSSSSSSSSS\n\n");
 
           Sleep(4000);
 
-          printf("inhaless........EXHALESSSSSSSSSSSS\n");
+          printf("inhaless........EXHALESSSSSSSSSSSS\n\n");
 
           Sleep(4000);
 
-          printf("INHALESSSSSSSSSSSS........EXHALESSSSSSSSSSSS\n");
+          printf("INHALESSSSSSSSSSSS........EXHALESSSSSSSSSSSS\n\n");
 
           Sleep(4000);
 
@@ -670,19 +707,18 @@ int main(int argc, char const *argv[])
 
           { Sleep(7000); 
 
-            printf ("U tryna be funny asshole??\n");
+            printf ("U tryna be funny asshole??\n\n");
 
             Sleep(6000);
               
-             printf ("I am not gonna entertain u more.\n");
+             printf ("I am not gonna entertain u more.\n\n");
 
              Sleep(4000); 
 
-             printf("This was your last chance , u insufferable fuck\n");
+             printf("This was your last chance , u insufferable fuck\n\n");
 
              break;
     }
-
 
   }
 
