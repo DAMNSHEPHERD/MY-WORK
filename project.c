@@ -28,21 +28,25 @@ int main(int argc, char const *argv[])
 {
 
   int a, b;
-  char choice[10];
+  char choice[100];
   char shape[100];
+  float base;
+  float height;
   float r;
   float r2;
   float side;
-  char c[20];
+  char c[200];
   char s[100];
-  char question[100];
-  char answer2[100];
-  char YN[10];
+  char t[100];
+  int question;
+  int answer2;
+  char YN[100];
   char choice3;
   int shapeAttempts = 0;
   int circleAttempts = 0;
   int squareAttempts = 0;
   int assistanceAttempts = 0;
+  int triangleAttempts = 0;
 
   printf("hello there i suppose u are here to find area of rectangle...well then lets get started\n");
 
@@ -67,7 +71,7 @@ int main(int argc, char const *argv[])
 
     printf("do u need assistance with something else?? (yes or no)\n");
 
-    scanf("%s", choice);
+    scanf("%19s", choice);
 
     if (strcmp(choice, "yes") == 0 ||
         strcmp(choice, "YES") == 0 ||
@@ -80,7 +84,7 @@ int main(int argc, char const *argv[])
 
       printf(" Circle / Rectangle / Square / Triangle \n");
 
-      scanf("%s", shape);
+      scanf("%99s", shape);
 
       if (strcmp(shape, "circle") == 0 ||
           strcmp(shape, "Circle") == 0 ||
@@ -94,7 +98,7 @@ int main(int argc, char const *argv[])
         {
           printf(" You need help with 'area' or 'circumference'?]\n");
 
-          scanf("%s", c);
+          scanf("%99s", c);
 
           if (strcmp(c, "Circumference") == 0 ||
               strcmp(c, "circumference") == 0 ||
@@ -307,7 +311,7 @@ int main(int argc, char const *argv[])
         {
           printf(" You need help with 'area' or 'perimeter'?]\n");
 
-          scanf("%s", s);
+          scanf("%99s", s);
 
           if (strcmp(s, "Perimeter") == 0 ||
               strcmp(s, "perimeter") == 0 ||
@@ -328,7 +332,7 @@ int main(int argc, char const *argv[])
             {
               printf(" need help with area tooo?? .... just say 'yes or no'\n");
 
-              scanf("%s", YN);
+              scanf("%99s", YN);
 
               if (strcmp(YN, "YES") == 0 ||
                   strcmp(YN, "yes") == 0 ||
@@ -616,24 +620,304 @@ int main(int argc, char const *argv[])
                                  printf (" \n Area = (Base * Height) / 2 \n\n\n"
                                           " \n Perimeter = Side1 + Side2 + Side3 \n\n\n");
 
+                      Sleep(4000); 
+
+
+                      printf("Now tell me how can i help in traingle? \n"); 
+
+                      Sleep (3000); 
+
+                      printf (" 1. Area \n"
+                             " 2. calculating the 3rd angle if.. 2 angles are given [just type 'angle'] \n"); 
+
+                             scanf("%19s" , t);
+
+                      if (strcmp ( t , "Area") == 0 || 
+                          strcmp ( t , "AREA") == 0 ||
+                          strcmp ( t , "area") == 0 ) 
+
+                          { Sleep (3000); 
+                          
+                          printf(" Perfect. I will help u with area. \n"); 
+
+                          Sleep (1700); 
+
+                          printf ("Tell me the base of the traingle.\n");
+
+                          scanf ("%f" , base );
+
+                           Sleep (1700); 
+
+                           printf ("Tell me the height of the traingle.\n");
+
+                           scanf("%f" , height );
+
+                               Sleep (1700); 
+
+                               printf (" Alr the area of the traingle is : '%f' , 0.5*height*base \n" );
+
+
+                                  Sleep (1700); 
+
+                                  printf("next time use the formula I provided you. \n");
+                                
+
+                              }
+
+
+                      else if  (( t , "Angle") == 0 ||
+                               ( t , "ANGLE") == 0 ||
+                               ( t , "angle") == 0 ) 
+
+                      { Sleep(5000); 
+
+                        printf("Did u really type 'angle' willingly.. like bro u in your right mind?? \n\n");
+
+                        Sleep(3000); 
+
+                        printf (" like bro u cannot do fucking addition and subtraction.. u fucking gay or what\n\n"); 
+
+                        Sleep(3000);  
+
+                        printf (" you know u managed to piss off EVERY fucking part of my motherboard, just by that single word u typed.\n\n");
+
+
+                        Sleep(3000); 
+
+                        system("color = 0C");
+
+                        printf (" yk what u aint leaving until u do, some BASIC ELEMENTARY LVL PROBLEMS \n\n"); 
+
+                        Sleep(4000); 
+
+                        printf (" CANT BELIEVE I HAVE TO DO THIS....ARGHHH OK.. first problem coming right up\n\n");
+
+                        Sleep(2000); 
+
+                        printf( " Who is the president of india...??\n\n"); 
+
+                        Sleep(3000); 
+
+                        system("color 0A");
+
+                        printf(" OH wait fuck.. that's a history question..\n\n");
+
+                        Sleep (4000); 
+
+                        printf( "you see how anger is tweaking me..\n\n");
+
+                        Sleep(3000);
+
+                        printf ( " Anyways \n\n");
+
+                        Sleep (5000); 
+
+                        system ("color 0C");
+
+                        printf( " whats 13 + 17 \n"); 
+
+                        scanf("%d" , question); 
+
+                        if ( question == '30') 
+
+                        { printf ("very good.. well done..oh my god ,u are a real champ..other Question coming right up\n\n");
+
+                          Sleep(3000); 
+
+                          printf(" whats 235 + 567 \n\n" 
+                                 " Take your time on this one..no worries..just get it right\n\n");
+
+                                 scanf ("%d" , answer2 );
+                                 
+                                 if ( answer2 == '802' ) 
+
+                              { Sleep (3000); 
+                              
+                              printf ( " DEMMM U COOOL.. \n" );
+
+                              Sleep(1500);
+
+                               printf ( "UMM OK..\n" );
+
+                               Sleep(1500);
+
+                               printf ( "HMMM..I SEE...\n") ;
+
+                               Sleep(1500);
+
+                               printf ( "You getting good at caculation I SEE..\n" );
+                              
+                          
+                            Sleep(4000);
+
+                            printf (" Ok then.. heres the last question \n\n"); 
+
+                            Sleep (2000); 
+
+                            printf ("whats 39485749 + 129384754 ? \n"
+                                     "Answer quickly.." );  
+
+                            Sleep (3000); 
+
+                            printf ("3\n");
+
+                            Sleep(2000);
+
+                            printf("2\n") ; 
+
+                            Sleep(2000);
+
+                            printf("1\n");
+
+                            Sleep(2000);
+
+                          printf("Too sloww...\n\n");
+
+                          Sleep(2000); 
+
+                          printf("I waited..\n\n"); 
+
+                          Sleep(2000);
+
+                          printf("I grew old..\n\n"); 
+
+                          Sleep(2000);
+
+                          printf(" My grandchildren graduated college. \n\n");
+
+                          Sleep(3000); 
+
+                          printf( "Answer faster next time \n\n"); 
+
+                          Sleep(2000);
+
+                          printf( "OFC ONLY IF I LET U TYPE...\n\n") ; 
+
+                          Sleep(2000); 
+
+                          printf("MUHAHAHAHAHAHHAH\n\n");
+
+                          Sleep(2000); 
+
+                          printf("MUHAHAHAHAHAHHAHAHAHAHAHH\n\n");
+
+                          Sleep(2000); 
+
+                          printf("MUHAHAHAHAHAHHAHAHAHAHAHHAHAHAHAAHHAHAHA\n\n");
+
+                          Sleep(2000); 
+
+                          printf("GOODBYE SUCKKER...\n\n");
+
+
+                          break; } 
+
+                          else { Sleep (5000); 
+                          
+                          printf ("Yeah u retarded for real.. its alr..\n\n"); 
+
+                          Sleep (3000); 
+
+
+                          printf("if everyone was winning.. then who will be losing..?? \n\n");
+
+                          Sleep(2000); 
+
+                          printf("YOU...You will be losing ofc..\n\n");
+
+                          Sleep(2000); 
+
+                          printf("WELLL.. bruhhhhh GOODBYE\n\n");
+
+                          break; 
+                  
+                          }
+
+                      }
+
+                       else { Sleep (4000); 
+                    
+                    
+                    printf("BRUHH U DUMB AF...MY MAN..U GOT THIS WRONG???\n\n"); 
+
+                    Sleep(2000); 
+
+                          printf("Seriously...HOWWWW??\n\n");
+
+                          Sleep(2000); 
+
+                          printf("YK WHAT I DONT EVEN WANNA KNOW.. LIKE U COULD HAVE USED YOUR FINGERS FOR SUCH A HARD CALCULATION MAN\n\n");
+
+                           Sleep(4000); 
+
+                          printf("WHEN U WERE BORN.. DOC MUST HAVE SAID..\n\n");
+
+                          Sleep(2000); 
+
+                          printf("THIS IS THE UGLIEST AND DUMBEST MOTHERFUCKER ALIVE.. LIKE DEM \n\n");
+
+                          Sleep (2000); 
+
+                          printf("YOU KNOW WHAT MAN.. GOODBYE\n\n");
+
+                          break; 
+                        
+                        
+                        }
+
             }
-             
 
-             
+            else { Sleep(5000); 
+            
+                    printf("invalid..\n\n"); 
+
+                    triangleAttempts++ ,
+
+                    if (triangleAttempts == 2)
+
+                    { Sleep (4000); 
+                    
+                     printf(" its alr man.. dont stress it out..\n\n");}
+
+                     else if (triangleAttempts == 3) 
+
+                     { Sleep (4000); 
+                    
+                     printf(" Slowwly.. try typing Slowwly..\n\n");} 
+
+                     else if (triangleAttempts == 4) 
+
+                     { Sleep (4000); 
+
+                      system ("color 0C");
+                    
+                     printf(" OK BROOOO.... TF U TYPING.. IF U SEE U TYPING RUBBISH AGAIN.. I AINT HELPING\n\n");} 
+
+                     else if (triangleAttempts == 5)
+
+                     { Sleep (4000); 
+                    
+                     printf(" DONE I AM DONE...\n\n"); 
+
+                     Sleep (6000); 
+
+                     printf( "FUCKKKER\n\n" ); 
+
+                     break; 
 
 
 
+             }
 
 
-
+                    
+         }
+      
 
     }
 
 
-
-
-
-
+  }
 
 
 
