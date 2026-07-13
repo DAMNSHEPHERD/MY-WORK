@@ -2,6 +2,27 @@
 #include <string.h>
 #include <windows.h>
 #include <stdlib.h>
+/*
+==========================================
+PROJECT: Terminal Assistant
+Author: Rakshit
+Started: July 2026
+
+Version 1.0
+- Shape Calculator
+- Rage computer
+- Attempt System
+- Menu Loop
+
+Version 1.1 (Planned)
+- Guess the Number
+- Rock Paper Scissors
+
+Version 1.2 (Planned)
+- Interactive Story
+
+==========================================
+*/
 
 int main(int argc, char const *argv[])
 {
@@ -427,10 +448,88 @@ int main(int argc, char const *argv[])
           {
             printf(" invalid input. \n");
 
-            Sleep(3000);
+            squareAttempts++ ;
 
-            printf(" TYPE properly dude.. like comeon man..ik u can do better than this..\n");
-          }
+            if (squareAttempts == 2)
+
+           { Sleep(3000);
+
+            printf(" TYPE properly dude.. like comeon man..ik u can do better than this..\n"); }
+
+           else if (squareAttempts == 3) 
+
+           { Sleep (4000); 
+
+            printf ("BROOO...like.. ik u can do it.. just keep trying\n"); }
+
+            else if (squareAttempts == 4)
+
+            { Sleep(6000); 
+            
+            printf("no words for you man.. try spelling it out.. just try...\n");}
+
+            else if (squareAttempts == 5)
+
+
+            { Sleep (2000);
+
+              system("color 0C");
+
+              printf("YOUUUU...\n");
+              
+              
+              Sleep(7000);
+
+              printf(" YOU KNOW PPL LIKE YOU.. PROMOTES ME TO START SMOKING.. EVERYTHING GOES SIMPLE.. AND THEN..YOUUUUUUUUUUUUUUUUUUUUUUUUUUUUU ARE TRYNA MAKE MY LIFE HARDERRR.....\n");
+
+
+              Sleep(6000); 
+
+              printf(" ARGHHHHHHHHHH..OK LAST CHANCE.. U HEAR ME U WORHTLESS SHIT... LAST CHANCE.. THEN I AM OUT// \n");
+
+            }
+
+            else if (squareAttempts == 6)
+
+            { Sleep(6000); 
+            
+               printf ("ERROR 404:\n");
+                printf ("user's reading skills not found.\n");
+
+                Sleep(5000);
+
+                  printf ("I've shown the options.\n");
+
+                   printf ( "I have repeated the options.\n");
+
+                    printf ("I've practically begged you to type one of the options.\n"); 
+
+                    Sleep(4000);
+
+                        printf ("Yet here we are... \n");
+
+                        Sleep(5000);
+
+                       printf ("I've reached a very scientific conclusion.\n");
+
+                        Sleep(3000);
+
+
+                        printf(" problem isn't my code.\n");
+
+                        Sleep(3000);
+
+                        printf ("The problem is sitting between the chair and the keyboard.\n");
+
+                        Sleep(5000);
+
+                        printf ( "   Goodbye. \n"); 
+
+                        break;
+                      
+                      }
+
+            }
 
         } while (strcmp(s, "Area") != 0 &&
                  strcmp(s, "AREA") != 0 &&
@@ -439,7 +538,68 @@ int main(int argc, char const *argv[])
                  strcmp(s, "Perimeter") != 0 &&
                  strcmp(s, "perimeter") != 0);
       }
+    
+    else if (strcmp ( shape , "Triangle") == 0  ||
+             strcmp ( shape , "TRIANGLE") == 0  ||
+             strcmp ( shape , "triangle") == 0 );
+             
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
+
+
+
+
+
+
+
+
+
 
     else if (strcmp(choice, "NO") == 0 ||
              strcmp(choice, "no") == 0 ||
