@@ -40,31 +40,18 @@ int main(int argc, char const *argv[])
   char t[100];
   int question;
   int answer2;
+  char rec[100];
   char YN[100];
   char choice3;
   int shapeAttempts = 0;
   int circleAttempts = 0;
   int squareAttempts = 0;
-  int assistanceAttempts = 0;
   int triangleAttempts = 0;
+  int rectangleAttempts = 0;
+  int assistanceAttempts = 0;
 
   printf("hello there i suppose u are here to find area of rectangle...well then lets get started\n");
 
-  Sleep(2000);
-
-  printf("what is the length of rectangle:\n");
-
-  scanf("%d", &a);
-
-  Sleep(2000);
-
-  printf("what is the breadth of rectangle: \n");
-
-  scanf("%d", &b);
-
-  printf("area of the required rectangle is:  %d\n", a * b);
-
-  Sleep(3000);
 
   do
 
@@ -920,8 +907,133 @@ int main(int argc, char const *argv[])
                      strcmp( t , "angle") != 0 ) ;   
 
                     
-         }
-      
+         }  
+
+        else if (strcmp ( shape , "Rectangle") == 0 ||
+                 strcmp ( shape , "rectangle") == 0 || 
+                 strcmp ( shape , "RECTANGLE") == 0 ) 
+
+                 { Sleep (4000); 
+                
+                printf( " oh nice.. i can help you with rectangle. \n\n"); 
+              
+                  Sleep(3000); 
+
+                  printf ("well do u need help with 'area' or the 'perimeter' of the rectangle? \n\n");
+
+                  Sleep (2000); 
+
+                do { Sleep(3000); 
+                  
+                  printf ("1. Area \n"
+                          "2. perimeter \n\n"); 
+
+                          scanf("%99s", rec);
+
+                          if (strcmp ( rec , "Area") == 0 || 
+                              strcmp ( rec , "area") == 0 || 
+                              strcmp ( rec , "AREA") == 0 ) 
+
+
+                              { Sleep (3000) ; 
+
+                               printf("what is the length of rectangle:\n");
+
+                                    scanf("%d", &a);
+
+                                        Sleep(2000);
+
+                                       printf("what is the breadth of rectangle: \n");
+
+                                            scanf("%d", &b);
+
+                                             printf("area of the required rectangle is:  %d\n", a * b);
+
+                                                Sleep(3000); }
+
+                            else if (strcmp ( rec , "Perimeter") == 0 || 
+                                     strcmp ( rec , "PERIMETER") == 0 || 
+                                     strcmp ( rec , "perimeter") == 0 ) 
+
+
+                                            { Sleep (3000) ; 
+
+                                              printf ( " hmm alr.. u can use the simple formula 2*(Lenght + Breadth) \n\n"); 
+
+
+                                    Sleep (2000);
+
+                                    printf("what is the length of rectangle:\n");
+
+                                     scanf("%d", &a);
+
+                                        Sleep(2000);
+
+                                       printf("what is the breadth of rectangle: \n");
+
+                                            scanf("%d", &b); 
+
+                                            Sleep (3000); 
+
+                                            printf (" The Perimeter of the rectangle is: '%d' \n", 2* (a+b) ); 
+
+                                            Sleep (3000);  }
+
+
+                                   else { Sleep(5000); 
+
+                                             printf("\n"); 
+            
+                                          printf("\ninvalid..\n\n"); 
+
+                                            rectangleAttempts++ ;
+
+                                                if ( rectangleAttempts == 2 )
+
+                                                  { Sleep (4000); 
+                    
+                                                          printf(" its alr man.. dont stress it out..Try again\n\n");}
+
+                                                      else if (rectangleAttempts == 3) 
+
+                                                     { Sleep (4000); 
+
+                                                      system ("color 0C");
+                    
+                                              printf(" Slowwly.. try typing Slowwly..\n\n");} 
+
+                                                      else if (rectangleAttempts == 4) 
+
+                                                   { Sleep (4000); 
+
+                                              
+                                                      printf(" OK BROOOO.... TF U TYPING.. IF U SEE U TYPING RUBBISH AGAIN.. I AINT HELPING\n\n");} 
+
+                                                     else if ( rectangleAttempts == 5)
+
+                                                   { Sleep (4000); 
+                    
+                                                        printf(" DONE I AM DONE...\n\n"); 
+
+                                                           Sleep (6000); 
+
+                                                          printf( "FUCKKKER\n\n" ); 
+
+                                                          break; } 
+                    
+                    
+              } 
+
+                  }   while (strcmp ( rec , "area") != 0 && 
+                             strcmp ( rec , "AREA") != 0 && 
+                             strcmp ( rec , "Area") != 0 &&
+                             strcmp ( rec , "Perimeter") != 0 &&
+                             strcmp ( rec , "perimeter") != 0 &&
+                             strcmp ( rec , "PERIMETER") != 0 ) ;                       
+
+
+
+            }
 
     }
 
