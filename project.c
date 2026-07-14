@@ -50,9 +50,13 @@ int main(int argc, char const *argv[])
   int rectangleAttempts = 0;
   int assistanceAttempts = 0;
 
+   Sleep(4000);
+
+   printf("\n\n");
+
   printf("hello there i am your terminal assistant..with a really short temper , so please be cautious\n\n");
 
-    Sleep(2000);
+    Sleep(4000);
 
 
     printf ("...well then lets get started\n\n");
@@ -63,14 +67,14 @@ int main(int argc, char const *argv[])
 
     Sleep (3000);  
 
-    printf (" but first tell me \n\n") ; 
+    printf (" but first tell me \n") ; 
 
     
 
 
   do
 
-  {
+  { printf("\n\n"); 
 
     printf("do you really need assistance ?? (yes or no)\n");
 
@@ -81,11 +85,14 @@ int main(int argc, char const *argv[])
         strcmp(choice, "Yes") == 0)
 
     {
-      printf("which shape u need help with??\n");
+      do { printf("which shape u need help with??\n");
 
       Sleep(2000);
 
-      printf(" Circle / Rectangle / Square / Triangle \n");
+      printf(" 1. Circle \n"
+              "2. Square  \n"
+              "3. Triangle  \n"
+              "4. Rectangle  \n");
 
       scanf("%99s", shape);
 
@@ -1102,7 +1109,7 @@ int main(int argc, char const *argv[])
                         Sleep (4000); 
 
                         printf ("JUST SO YOU KNOW.. IK YOUR ADDRESS...\n"
-                                 " I WILL SELLL YOUR INFO ON DARK WEB.. IF U GET IT WRONG AGAIN\n\n" ) 
+                                 " I WILL SELLL YOUR INFO ON DARK WEB.. IF U GET IT WRONG AGAIN\n\n" ) ;
                                  
                         } 
 
@@ -1138,23 +1145,23 @@ int main(int argc, char const *argv[])
                           printf (" FUCK MYSELF A MILLION TIMES.. PLEASE FUCK ME.. OH GOD..\n\n"); 
 
 
-                          Sleep("5000"); 
+                          Sleep(5000); 
 
 
                           printf(" AND OFCOURSE U WILL BE THAT MONKEY\n\n"); 
 
-                          Sleep ("6000"); 
+                          Sleep (6000); 
 
 
                           printf("BTW YEAH I AM SELLING YOUR INFORMATION ON DARK WEB..\n\n"); 
 
 
-                          Sleep("4000"); 
+                          Sleep(4000); 
 
 
-                          Printf(" AND DONE!!\n\n"); 
+                          printf(" AND DONE!!\n\n"); 
 
-                          Sleep ("3000"); 
+                          Sleep (3000); 
 
 
                           printf(" ENJOY....HAHAHAHAHAHAHA..\n\n");
@@ -1162,11 +1169,27 @@ int main(int argc, char const *argv[])
 
 
 
-                        }
+                        } 
+                      
+                      }
 
               
 
-                   }
+                   } while ( strcmp(shape , "Circle") !=0 &&
+                             strcmp(shape, "circle") != 0 &&
+                             strcmp(shape, "Square") != 0 &&
+                             strcmp(shape, "CIRCLE") != 0 &&
+                             strcmp(shape, "SQUARE") != 0 &&
+                             strcmp(shape, "square") != 0 &&
+                             strcmp(shape, "TRIANGLE") != 0 && 
+                             strcmp(shape, "Triangle") != 0 &&
+                             strcmp(shape, "triangle") != 0 &&
+                             strcmp(shape, "RECTANGLE") != 0 && 
+                             strcmp(shape, "Rectangle") != 0 &&
+                             strcmp(shape, "rectangle") != 0  ) ;
+          
+                          
+                            
 
     }
 
@@ -1180,13 +1203,15 @@ int main(int argc, char const *argv[])
     {
       Sleep(3000);
 
-      printf(" well then alr i will take my leave.. but think again u really dont need some help??\n");
+      printf(" well then alr i will take my leave..\n");
     }
 
     else
     {
 
       Sleep(3000); 
+
+      printf("\n\n");
 
       printf("invalid input.\n");
 
@@ -1195,6 +1220,8 @@ int main(int argc, char const *argv[])
       if (assistanceAttempts == 2)
 
       { Sleep (3000); 
+
+        printf("\n\n");
 
 
         printf("just ans dude..like..\n");
@@ -1208,6 +1235,8 @@ int main(int argc, char const *argv[])
         Sleep(3000);
 
         system("color 0C");
+
+        printf("\n\n");
         
         printf( " BRUHH WHAT ARE U DOING MAN.. JUST TYPE FOR GOD SAKE..\n"); }
 
@@ -1215,10 +1244,14 @@ int main(int argc, char const *argv[])
 
         { Sleep(3000);
 
+          printf("\n\n");
+
           printf( " THISSS GUYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY... OH MY FUCKING GOD... LIKE...ARGHHHHHHHHHHH\n");
 
 
           Sleep(5000);
+
+          printf("\n");
 
           printf("I NEED TO CALM DOWN.. OK LONG BREATHS.....\n");
 
@@ -1253,11 +1286,20 @@ int main(int argc, char const *argv[])
              printf("This was your last chance , u insufferable fuck\n\n");
 
              break; }
+
+
+          }
+        
+        
+        
+        
+        
+
     
 
   
 
-  }
+  
 
 } while (strcmp(choice, "Yes") != 0 &&
            strcmp(choice, "yes") != 0 &&
