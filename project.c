@@ -50,14 +50,29 @@ int main(int argc, char const *argv[])
   int rectangleAttempts = 0;
   int assistanceAttempts = 0;
 
-  printf("hello there i suppose u are here to find area of rectangle...well then lets get started\n");
+  printf("hello there i am your terminal assistant..with a really short temper , so please be cautious\n\n");
+
+    Sleep(2000);
+
+
+    printf ("...well then lets get started\n\n");
+
+    Sleep (3000); 
+
+    printf (" i can help u wih shapes..\n\n") ; 
+
+    Sleep (3000);  
+
+    printf (" but first tell me \n\n") ; 
+
+    
 
 
   do
 
   {
 
-    printf("do u need assistance with something else?? (yes or no)\n");
+    printf("do you really need assistance ?? (yes or no)\n");
 
     scanf("%19s", choice);
 
@@ -1033,7 +1048,125 @@ int main(int argc, char const *argv[])
 
 
 
-            }
+            } 
+
+            else { Sleep(3000); 
+            
+                   printf("invalid.\n\n"); 
+                   
+                   shapeAttempts++ ; 
+
+                   if (shapeAttempts == 1)
+
+                   { Sleep (2000); 
+                  
+                  printf("having a long day huh...its alr try again.\n\n"); }
+
+                  else if ( shapeAttempts == 2) 
+
+                  { Sleep(4000); 
+                  
+                  printf("ooof.. it happened again.. try slower this time..\n\n"); 
+                
+                   Sleep (2000);
+                   
+                   printf("for your own sanity.. and mine\n\n"); } 
+
+                   else if ( shapeAttempts == 3)
+
+                   { Sleep(3000); 
+                  
+                  printf (" oh my god.. you are so funny... haha..\n\n"); 
+                
+                    Sleep(2000); 
+              
+                    printf ( "we got your joke.... type now..\n\n"); 
+            
+                       Sleep(2000); 
+          
+                        printf("Please\n\n");  } 
+
+
+                        else if ( shapeAttempts == 4) 
+
+                        {  Sleep(3000); 
+
+                          system("color 0C"); 
+          
+                        printf("REALLY TRYING YOUR HARDEST AERNT U... \n\n"); 
+
+                        Sleep (3000); 
+
+                        printf(" JUST TYPE.. AND THIS IS A COMMAND FROM ME TO YOU... \n\n"); 
+
+                        Sleep (4000); 
+
+                        printf ("JUST SO YOU KNOW.. IK YOUR ADDRESS...\n"
+                                 " I WILL SELLL YOUR INFO ON DARK WEB.. IF U GET IT WRONG AGAIN\n\n" ) 
+                                 
+                        } 
+
+                        else if ( shapeAttempts == 5)
+
+                        { Sleep (4000); 
+                        
+                        printf (" YOU KNOW.. EVER HEARD OF THAT INFINITE MONKEY INFINITE TYPEWRITER THEORY.. \n\n"); 
+                      
+                          Sleep(3000); 
+
+                          printf(" IT SAYS THAT IN A SPACE WITH INFINITE TIME.. INFINITE MONKEY ARE CONSTATNLY TYPING SOMETHING.. ON INFINITE TYPEWRITER\n\n"); 
+
+                          Sleep (2000); 
+
+                          printf ("ONE OF THEM WILL EVENTUALLY TYPE THE WHOLE SHAKESPEAR PLAY..\n\n"); 
+
+                          Sleep (2000); 
+
+                          printf ("ONE OF THEM WILL TYPE MOVIES PLOT.. ONE OF THEM WILL TYPE NEW PROGRAMS\n\n"); 
+
+                          Sleep(4000); 
+
+                          printf(" BUT THERE WILL BE ONE MONKEY THAT TOOO..\n\n"); 
+
+                          Sleep (1500); 
+                            
+                            printf ("WHO TYPES\n\n"); 
+
+
+                          Sleep(4000); 
+
+                          printf (" FUCK MYSELF A MILLION TIMES.. PLEASE FUCK ME.. OH GOD..\n\n"); 
+
+
+                          Sleep("5000"); 
+
+
+                          printf(" AND OFCOURSE U WILL BE THAT MONKEY\n\n"); 
+
+                          Sleep ("6000"); 
+
+
+                          printf("BTW YEAH I AM SELLING YOUR INFORMATION ON DARK WEB..\n\n"); 
+
+
+                          Sleep("4000"); 
+
+
+                          Printf(" AND DONE!!\n\n"); 
+
+                          Sleep ("3000"); 
+
+
+                          printf(" ENJOY....HAHAHAHAHAHAHA..\n\n");
+
+
+
+
+                        }
+
+              
+
+                   }
 
     }
 
