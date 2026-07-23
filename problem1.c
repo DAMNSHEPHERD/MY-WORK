@@ -158,5 +158,29 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
+#include <stdio.h>
+
+int main(int argc, char const *argv[])
+{
+    int count = 0;
+    int input;
+    int number;
+
+    printf(" Enter your number \n");
+
+    scanf("%d", &input);
+
+    while (input > 0)
+    {
+        count++;
+
+        input = input / 10;
+    }
+
+    printf("%d", count);
+
+    return 0;
+}
+
 
 
